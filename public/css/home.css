@@ -1,0 +1,167 @@
+.descripcion {
+    font-size: var(--sizeDescripciones);
+} 
+.header {
+    background-color: var(--amarillo);
+}
+
+.logo {
+    width: 40%;
+    height: 40%;
+    margin-left: 8%;
+    margin-top: 5%;
+}
+
+.navbar {
+    font-size: var(--sizeDescripciones);
+    color: var(--gris-oscuro);
+    margin: 4% 4% 4% 8% ;
+    width: 400px;
+    background-color: white;
+    padding: 10px;
+    display: block;
+    border-width : 1px;
+    border-style : solid;
+    border-color : var(--gris-oscuro);
+    
+    /* box-sizing: border-box; */
+}
+
+.contenedor-buscador {
+    position: relative;
+}
+
+.contenedor-cuotas{
+    position: relative;
+}
+
+#lupa {
+    background: white;
+    width: 4.5%;
+    padding: 4px;
+    border: black solid 1px;
+    bottom: 86%;
+    left: 8%;
+    position: absolute;
+}
+
+
+
+#mano {bottom: 43%;left: 20%;position: absolute;}
+
+#tarjeta-perfil {
+    position: absolute;
+    bottom: 73%;
+    left: 22%;
+}
+
+#flecha-entrar {
+    position: absolute;
+    bottom: 71.3%;
+    left: 12%;
+}
+
+#canasta-compras {
+    position: absolute;
+    bottom: 69.8%;
+    left: 20%;
+}
+
+.banner {
+    margin-top: 20%;
+}
+
+#burguer-menu {
+    background-color: var(--celeste);
+    padding: 1%;
+    width: 5%;
+    position: absolute;
+    bottom: 63%;
+    left: 50%;
+    color: white;
+    border-radius: 10%;
+}
+
+.mensaje-cuotas {
+    text-align: center;
+    margin: 4% 4% 4% 4%;
+}
+
+.nav-menu ul li a{
+    color: black;
+    text-decoration:none;
+
+    
+}
+
+.perfil {    
+ margin-top: 2%;
+}
+
+.perfil li a{
+    color: black;
+    text-decoration:none;
+}
+
+.titular b{
+    font-size: var(--sizeTitulares);
+    text-align: center;
+    color: var(--gris-oscuro);
+}
+
+
+#ofertas {
+    margin-top: 700px;
+}
+
+.main-home {
+    text-align: center;
+    padding: 50px 0px;
+}
+
+
+
+.main p {
+    font-size: 16px
+}
+
+.descuento {
+    font-size: var(--sizeDescuentos); 
+}
+.precio {
+    font-size: var(--sizePrecios);
+}
+
+.footer {text-align: center;margin-top: 10%;}
+
+#tarjeta {
+
+color: var(--celeste);
+
+font-size: 50px;
+}
+
+#regalo {
+
+color: var(--celeste);
+
+margin-top: 100px;
+
+font-size: 50px;
+}
+
+#user-shield {
+
+color: var(--celeste);
+
+margin-top: 100px;
+
+font-size: 50px;
+}
+
+#copy {
+    margin-top: 71px;
+}
+
+
+
