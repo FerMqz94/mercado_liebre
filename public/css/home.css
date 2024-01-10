@@ -13,10 +13,13 @@
     margin-top: 5%;
 }
 
+.contenedor-buscador {
+    display:flex;
+}
+
 .navbar {
     font-size: var(--sizeDescripciones);
     color: var(--gris-oscuro);
-    margin: 4% 4% 4% 8% ;
     width: 400px;
     background-color: white;
     padding: 10px;
@@ -24,26 +27,25 @@
     border-width : 1px;
     border-style : solid;
     border-color : var(--gris-oscuro);
-    
-    /* box-sizing: border-box; */
+    margin-left: 8%;
 }
 
 #lupa {
-    right: 52%;
     background: white;
-    width: 2.5%;
-    padding: 4px;
+    width: 4.5%;
+    padding: 1%;
     border: black solid 1px;
-    bottom: 2%;
-    left: -32%;
-    position: absolute;
+    margin: 0% 0% 8% 8%;
 }
 
 .contenedor-mensajeCompra {
     display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
-#mano {display: inline;}
+#mano {}
 
 #tarjeta-perfil {display: inline;margin: 0% 83% 0% 0%;}
 
@@ -69,6 +71,7 @@
     color: white;
     border-radius: 8px;
     text-align: center;
+    font-size: 221%;
 }
 
 
@@ -83,7 +86,7 @@
     height: 100px;
 }
 
-.mensaje-cuotas {display: inline;}
+.mensaje-cuotas {}
 
 .contenedor-menu2 {display: flex;}
 
