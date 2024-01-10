@@ -14,17 +14,17 @@
 }
 
 .contenedor-buscador {
-    display:flex;
+    display: inline-flex;
+    flex-direction: column;
 }
 
 .navbar {
     font-size: var(--sizeDescripciones);
     color: var(--gris-oscuro);
-    width: 400px;
+    width: 441px;
+    height: 23px;
     background-color: white;
-    padding: 10px;
-    display: block;
-    border-width : 1px;
+    border-width: 1px;
     border-style : solid;
     border-color : var(--gris-oscuro);
     margin-left: 8%;
@@ -32,46 +32,36 @@
 
 #lupa {
     background: white;
-    width: 4.5%;
-    padding: 1%;
     border: black solid 1px;
-    margin: 0% 0% 8% 8%;
+    width: 17px;
+    height: 16px;
+    margin-left: 78px;
+    text-align: center;
 }
 
 .contenedor-mensajeCompra {
-    display:flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
     width: 100%;
 }
 
-#mano {}
-
-#tarjeta-perfil {display: inline;margin: 0% 83% 0% 0%;}
-
-#flecha-entrar {
-    display: inline;
-    margin: 0% 91% 0% 0%;
+#mano {
+    width: 20px;
 }
 
-#canasta-compras {display: inline;margin: 0% 86% 0% 0%;}
-
-
-
-.contenedor {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    height: 100px;
-    justify-content: center;
-}
+.contenedor {display: inline-flex;justify-content: center;align-items: center;width: 100%;}
 
 #burguer-menu {
     background-color: var(--celeste);
+    font-size: 25px;
     color: white;
     border-radius: 8px;
+    padding: 11px;
+    width: 47px;
+    height: 47px;
     text-align: center;
-    font-size: 221%;
+    margin-bottom: 25px;
 }
 
 
@@ -86,9 +76,25 @@
     height: 100px;
 }
 
-.mensaje-cuotas {}
+.mensaje-cuotas {width: 250px;}
 
-.contenedor-menu2 {display: flex;}
+
+.contenedor-tarjeta {margin-top: 25px;display: inline-flex;justify-content: flex-start;}
+.contenedor-flecha {display: inline-flex;justify-content: flex-start;}
+.contenedor-canasta {display: inline-flex;justify-content: flex-start;}
+
+#tarjeta-perfil {
+    width: 10000px;
+}
+
+#flecha-entrar {
+    width: 20000px;
+}
+
+#canasta-compras {
+    width: 10000px;
+}
+
 
 .nav-menu ul li a{
     color: black;
@@ -130,7 +136,7 @@
     font-size: var(--sizePrecios);
 }
 
-.footer {text-align: center;margin-top: 10%;}
+.footer {display: inline-flex;width: 100%;margin-top: 10%;text-align: center;flex-direction: column;padding: 0% 37% 0% 37%;}
 
 #tarjeta {
 
