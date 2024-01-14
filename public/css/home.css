@@ -79,7 +79,7 @@
 .mensaje-cuotas {width: 250px;}
 
 
-.contenedor-tarjeta {margin-top: 25px;display: inline-flex;justify-content: flex-start;}
+.contenedor-tarjeta {margin-top: 25px;display: inline-flex;}
 .contenedor-flecha {display: inline-flex;justify-content: flex-start;}
 .contenedor-canasta {display: inline-flex;justify-content: flex-start;}
 

@@ -18,11 +18,11 @@
     margin: 0;
     font-family: var(--familyRoboto);
     width: 100%;
-    font-size: 12px;
     box-sizing: border-box;
 }
 
 a {
     color: black;
     text-decoration: none;
+    font-size: var(--size12);
 }

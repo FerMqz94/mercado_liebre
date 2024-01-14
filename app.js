@@ -10,5 +10,5 @@ app.get("/",(req,res) =>{
 })
 
 app.listen(port, () =>{
-    console.log('Servidor corriendo');
+    console.log(`Servidor corriendo en el puerto ${port}`);
 })
