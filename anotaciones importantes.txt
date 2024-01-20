@@ -1,0 +1,2 @@
+- el display none en la vista de mobile no me funciona
+

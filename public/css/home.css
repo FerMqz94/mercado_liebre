@@ -131,9 +131,9 @@
     margin-top: 700px;
 }
 
-.main-home {width: 90%;display: flex;flex-direction: column;background-color: var(--gris-claro);}
+.main-home {width: 90%;display: flex;flex-direction: column;background-color: var(--gris-claro);margin: 0 auto;}
 
-article {display: flex;gap: 10px;background-color: var(--blanco);width: 50%;flex-direction: column;margin-bottom: 10px;}
+article {display: flex;gap: 10px;background-color: var(--blanco);width: 50%;flex-direction: column;margin: 10px auto;}
 
 
 .main p {
@@ -155,7 +155,7 @@ color: var(--verde);
 
 border: 1px solid;
 
-width: 5%;
+width: 50px;
 
 border-radius: 100%;
 
@@ -213,7 +213,7 @@ font-size: 50px;
 
 /* TABLET */
 
-@media (min-width: 361px){
+@media (min-width: 361px) {
 
 .descripcion {} 
     
