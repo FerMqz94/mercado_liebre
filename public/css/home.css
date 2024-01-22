@@ -123,12 +123,13 @@
     color: var(--gris-oscuro);
     padding-top: 62px;
     display: flex;
+    justify-content: center;
 }
 
 
 
 #ofertas {
-    margin-top: 700px;
+    margin-top: 200px;
 }
 
 .main-home {width: 90%;display: flex;flex-direction: column;background-color: var(--gris-claro);margin: 0 auto;}
@@ -210,179 +211,56 @@ font-size: 50px;
 
 
 
-
+/*-------------------------------------------------------*/
 /* TABLET */
 
 @media (min-width: 361px) {
 
-.descripcion {} 
-    
-.header {}
-    
-.logo {}
-    
-.contenedor-buscador {}
-
-.nav-menu {}
-    
-.navbar {}
-    
-#lupa {}
-    
-.contenedor-mensajeCompra {}
-    
-#mano {}
-    
-.contenedor {}
-    
-#burguer-menu {}
-    
-.banner {}    
-    
-.contein-mensajeCuotas {}    
-    
-.contenedor-menu {}
-    
-.mensaje-cuotas {}
+.nav-menu {
+    display: inline;
+}
     
 .lista-cuenta {
-    display: block;
+    display: inline;
 }    
     
-#tarjeta-perfil {}
+#tarjeta-perfil {
+    display: inline;
+}
     
-#flecha-entrar {}
+#flecha-entrar {
+    display: inline;
+}
     
-#canasta-compras {}    
+#canasta-compras {
+    display: inline;
+}    
     
-.nav-menu ul li a{}
-    
-.perfil {}
-    
-.perfil li a{}
-    
-.titular b{}
-    
-#ofertas {}
-    
-.main-home {}
+.nav-menu ul li a{
+    display: inline;
+}
 
-article {}
-    
-.main p {}
-    
 .contein-info-product {
     display: flex;
     flex-direction: column;
 }
-    
-.fa-truck {}
-    
-.descuento {}
-
-.precio {}    
-    
-.footer {}
-    
-#tarjeta {}
-    
-#regalo {}
-    
-#user-shield {}
-    
-#copy {}
-
-}
 
 
 
 
 
-
-
-
-
-
-
-
+/*-------------------------------------------------------*/
 /* DESKTOP */
 
-@media (min-width: 769px) {
-    
-.descripcion {} 
-    
-.header {}
-    
-.logo {}
-    
-.contenedor-buscador {}
-    
-.navbar {}
-
-.nav-menu {}
-    
-#lupa {}
-    
-.contenedor-mensajeCompra {}
-    
-#mano {}
-    
-.contenedor {}
-    
-#burguer-menu {}
-    
-.banner {}    
-    
-.contein-mensajeCuotas {}    
-    
-.contenedor-menu {}
-    
-.mensaje-cuotas {}
-    
+@media (min-width: 769px) {    
+  
 .lista-cuenta {
     display: block;
-}    
-    
-#tarjeta-perfil {}
-    
-#flecha-entrar {}
-    
-#canasta-compras {}    
-    
-.nav-menu ul li a{}
-    
-.perfil {}
-    
-.perfil li a{}
-    
-.titular b{}
-    
-#ofertas {}
-    
-.main-home {}
+}
 
 article {
     box-shadow: 0px 0px 10px rgb(100,100,100);
 }
 
-.main p {}
-    
-.contein-info-product {}
-    
-.fa-truck {}
-    
-.descuento {}
-
-.precio {}    
-    
-.footer {}
-    
-#tarjeta {}
-    
-#regalo {}
-    
-#user-shield {}
-    
-#copy {}
 
 }
