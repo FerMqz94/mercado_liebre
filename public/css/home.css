@@ -245,6 +245,9 @@ font-size: 50px;
     flex-direction: column;
 }
 
+article {
+    box-shadow: 0px 0px 10px rgb(100,100,100);
+}
 
 
 
@@ -252,15 +255,12 @@ font-size: 50px;
 /*-------------------------------------------------------*/
 /* DESKTOP */
 
-@media (min-width: 769px) {    
-  
+@media (min-width: 769px) {  
+
 .lista-cuenta {
     display: block;
 }
 
-article {
-    box-shadow: 0px 0px 10px rgb(100,100,100);
 }
 
 
-}
