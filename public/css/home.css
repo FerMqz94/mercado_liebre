@@ -1,140 +1,17 @@
-.descripcion {
-    font-size: var(--sizeDescripciones);
-} 
-
-.header {
-    background-color: var(--amarillo);
-}
-
-.logo {
-    width: 40%;
-    height: 40%;
-    margin-left: 8%;
-    margin-top: 5%;
-}
-
-.contenedor-buscador {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding-left: 8%;
-    gap: 10px;
-}
-
-.nav-menu {
-    display:none
-}
-
-
-.navbar {
-    font-size: var(--sizeDescripciones);
-    color: var(--gris-oscuro);
-    width: 320px;
-    height: 23px;
-    background-color: white;
-    border-width: 1px;
-    border-style : solid;
-    border-color : var(--gris-oscuro);
-}
-
-#lupa {
-    background: white;
-    border: black solid 1px;
-    width: 23px;
-    height: 23px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.contenedor-mensajeCompra {
-    width: 100%;
-}
-
-#mano {display: inline;}
-
-.contenedor {width: 100%;display: flex;align-content: center;justify-content: center;align-items: baseline;}
-
-#burguer-menu {
-    background-color: var(--celeste);
-    font-size: 25px;
-    color: white;
-    border-radius: 8px;
-    padding: 11px;
-    width: auto;
-    margin-bottom: 25px;
-}
-
-.banner {}
-
-
-.contein-mensajeCuotas {
-    width: 100%;
-    height: 100px;
-}
-
-
-.contenedor-menu {
-    width: 100%;
-    height: 100px;
-}
-
-.mensaje-cuotas {font-size: var(--size12);text-align: center;}
-
-.lista-cuenta {
-    margin-top: 10px;
-    display: none;
-}
-
-
-#tarjeta-perfil {
-    width: 10000px;
-    display: inline;
-    margin-top: 10px;
-}
-
-#flecha-entrar {
-    width: 20000px;
-    display: inline;
-}
-
-#canasta-compras {
-    width: 10000px;
-    display: inline;
-}
-
-
-.nav-menu ul li a{
-    color: black;
-    text-decoration:none;    
-}
-
-.perfil {    
- margin-top: 2%;
-}
-
-.perfil li a{
-    color: black;
-    text-decoration:none;
-}
-
-.titular b{
+.titular{
     font-size: var(--sizeTitulares);
     color: var(--gris-oscuro);
-    padding-top: 62px;
-    display: flex;
-    justify-content: center;
+    text-decoration: none;
 }
 
 
 
 #ofertas {
-    margin-top: 200px;
 }
 
 .main-home {width: 90%;display: flex;flex-direction: column;background-color: var(--gris-claro);margin: 0 auto;}
 
-article {display: flex;gap: 10px;background-color: var(--blanco);width: 50%;flex-direction: column;margin: 10px auto;}
+article {display: flex;background-color: var(--blanco);flex-wrap: wrap;height: 20%;margin: 10px;}
 
 
 .main p {
@@ -148,66 +25,30 @@ article {display: flex;gap: 10px;background-color: var(--blanco);width: 50%;flex
     width: 100%;
     height: 100%;
     display: none;
+    position: relative;
 }
 
-.fa-truck {
-
-color: var(--verde);
-
-border: 1px solid;
-
-width: 50px;
-
-border-radius: 100%;
-
-height: 45px;
-
-display: flex;
-
-align-items: center;
-
-justify-content: center;
+.contein-truck {
+    display:block
 }
+
+
 
 .descuento {
     font-size: var(--sizeDescuentos);
     color: var(--verde);
+    width: 70%;
 }
 .precio {
     font-size: var(--sizePrecios);
+    width: 30%;
 }
 
-
-.footer {display: inline-flex;width: 100%;margin-top: 10%;text-align: center;flex-direction: column;padding: 0% 37% 0% 37%;}
-
-#tarjeta {
-
-color: var(--celeste);
-
-font-size: 50px;
+.descripciones {
+    font-size: var(--sizeDescripciones);
+    color: var(--gris-oscuro);
 }
 
-#regalo {
-
-color: var(--celeste);
-
-margin-top: 100px;
-
-font-size: 50px;
-}
-
-#user-shield {
-
-color: var(--celeste);
-
-margin-top: 100px;
-
-font-size: 50px;
-}
-
-#copy {
-    margin-top: 71px;
-}
 
 
 
@@ -216,40 +57,15 @@ font-size: 50px;
 
 @media (min-width: 361px) {
 
-.nav-menu {
-    display: inline;
-}
-    
-.lista-cuenta {
-    display: inline;
-}    
-    
-#tarjeta-perfil {
-    display: inline;
-}
-    
-#flecha-entrar {
-    display: inline;
-}
-    
-#canasta-compras {
-    display: inline;
-}    
-    
-.nav-menu ul li a{
-    display: inline;
-}
-
 .contein-info-product {
     display: flex;
-    flex-direction: column;
-}
-
-article {
-    box-shadow: 0px 0px 10px rgb(100,100,100);
+    gap: 10px;
+    flex-wrap: wrap;
 }
 
 
+
+}
 
 
 /*-------------------------------------------------------*/
@@ -260,6 +76,8 @@ article {
 .lista-cuenta {
     display: block;
 }
+
+
 
 }
 

@@ -1,0 +1,147 @@
+.descripcion {
+    font-size: var(--sizeDescripciones);
+} 
+
+.header {
+    background-color: var(--amarillo);
+}
+
+.logo {
+    width: 40%;
+    height: 40%;
+    margin-left: 8%;
+    margin-top: 5%;
+}
+
+.contenedor-buscador {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-left: 8%;
+    gap: 10px;
+}
+
+.nav-menu {
+    display:none
+}
+
+
+.navbar {
+    font-size: var(--sizeDescripciones);
+    color: var(--gris-oscuro);
+    width: 320px;
+    height: 23px;
+    background-color: white;
+    border-width: 1px;
+    border-style : solid;
+    border-color : var(--gris-oscuro);
+}
+
+#lupa {
+    background: white;
+    border: black solid 1px;
+    width: 23px;
+    height: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-mensajeCompra {
+    width: 100%;
+}
+
+#mano {display: inline;}
+
+.contenedor {width: 100%;display: flex;align-content: center;justify-content: center;align-items: baseline;}
+
+#burguer-menu {
+    background-color: var(--celeste);
+    font-size: 25px;
+    color: white;
+    border-radius: 8px;
+    padding: 11px;
+    width: auto;
+    margin-bottom: 25px;
+}
+
+.banner {}
+
+
+.contein-mensajeCuotas {
+    width: 100%;
+    height: 100px;
+}
+
+
+.contenedor-menu {
+    width: 100%;
+    height: 100px;
+}
+
+.mensaje-cuotas {font-size: var(--size12);text-align: center;}
+
+.lista-cuenta {
+    margin-top: 10px;
+    display: none;
+}
+
+
+#tarjeta-perfil {
+    width: 10000px;
+    display: inline;
+    margin-top: 10px;
+}
+
+#flecha-entrar {
+    width: 20000px;
+    display: inline;
+}
+
+#canasta-compras {
+    width: 10000px;
+    display: inline;
+}
+
+
+.nav-menu ul li a{
+    color: black;
+    text-decoration:none;    
+}
+
+.perfil {    
+ margin-top: 2%;
+}
+
+.perfil li a{
+    color: black;
+    text-decoration:none;
+}
+
+@media (min-width: 361px) {
+
+    .nav-menu {
+        display: inline;
+    }
+        
+    .lista-cuenta {
+        display: inline;
+    }    
+        
+    #tarjeta-perfil {
+        display: inline;
+    }
+        
+    #flecha-entrar {
+        display: inline;
+    }
+        
+    #canasta-compras {
+        display: inline;
+    }    
+        
+    .nav-menu ul li a{
+        display: inline;
+    }
+
+}

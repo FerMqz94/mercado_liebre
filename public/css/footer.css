@@ -1,0 +1,30 @@
+.footer {display: inline-flex;width: 100%;margin-top: 10%;text-align: center;flex-direction: column;padding: 0% 37% 0% 37%;}
+
+#tarjeta {
+
+color: var(--celeste);
+
+font-size: 50px;
+}
+
+#regalo {
+
+color: var(--celeste);
+
+margin-top: 100px;
+
+font-size: 50px;
+}
+
+#user-shield {
+
+color: var(--celeste);
+
+margin-top: 100px;
+
+font-size: 50px;
+}
+
+#copy {
+    margin-top: 71px;
+}
