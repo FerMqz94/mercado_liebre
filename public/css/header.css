@@ -7,39 +7,36 @@
 }
 
 .logo {
-    width: 40%;
-    height: 40%;
-    margin-left: 8%;
-    margin-top: 5%;
+    width: 50%;
 }
 
 .contenedor-buscador {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    padding-left: 8%;
-    gap: 10px;
+    align-items: center;
+    margin-top: 4%;
 }
 
-.nav-menu {
-    display:none
-}
+.nav-menu {display: none;}
 
 
 .navbar {
-    font-size: var(--sizeDescripciones);
+    font-size: var(--size12);
     color: var(--gris-oscuro);
-    width: 320px;
+    width: 40%;
     height: 23px;
     background-color: white;
-    border-width: 1px;
-    border-style : solid;
-    border-color : var(--gris-oscuro);
+    border-color: var(--gris-claro);
+    border: none;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
 }
 
 #lupa {
+    color: var(--gris-oscuro);
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
     background: white;
-    border: black solid 1px;
     width: 23px;
     height: 23px;
     display: flex;
@@ -53,16 +50,16 @@
 
 #mano {display: inline;}
 
-.contenedor {width: 100%;display: flex;align-content: center;justify-content: center;align-items: baseline;}
+.contenedor-burguer {width: 100%;display: flex;align-content: center;justify-content: center;align-items: baseline;}
 
 #burguer-menu {
     background-color: var(--celeste);
-    font-size: 25px;
+    font-size: 20px;
     color: white;
-    border-radius: 8px;
-    padding: 11px;
+    border-radius: 5px;
+    padding: 8px;
     width: auto;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
 .banner {}
@@ -79,10 +76,9 @@
     height: 100px;
 }
 
-.mensaje-cuotas {font-size: var(--size12);text-align: center;}
+.mensaje-cuotas {font-size: var(--size12);text-align: center;margin: 20px 0px;}
 
 .lista-cuenta {
-    margin-top: 10px;
     display: none;
 }
 
@@ -120,28 +116,30 @@
 
 @media (min-width: 361px) {
 
-    .nav-menu {
-        display: inline;
-    }
-        
-    .lista-cuenta {
-        display: inline;
-    }    
-        
-    #tarjeta-perfil {
-        display: inline;
-    }
-        
-    #flecha-entrar {
-        display: inline;
-    }
-        
-    #canasta-compras {
-        display: inline;
-    }    
-        
-    .nav-menu ul li a{
-        display: inline;
-    }
+.nav-menu {
+    display: inline;
+}
+    
+.lista-cuenta {display: inline;}    
+    
+#tarjeta-perfil {
+    display: inline;
+}
+    
+#flecha-entrar {
+    display: inline;
+}
+    
+#canasta-compras {
+    display: inline;
+}    
+    
+.nav-menu ul li a{
+    display: inline;
+}
+
+.contenedor-burguer {
+    display: none;
+}
 
 }

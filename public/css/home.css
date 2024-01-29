@@ -1,7 +1,14 @@
+.mercado-liebre-top {
+    display: flex;
+    gap: 10px;
+    align-content: center;
+}
+
+
 .titular{
     font-size: var(--sizeTitulares);
     color: var(--gris-oscuro);
-    text-decoration: none;
+    margin: 5% 0%;
 }
 
 
@@ -21,7 +28,6 @@ article {display: flex;background-color: var(--blanco);flex-wrap: wrap;height: 2
 .contein-info-product {
     border: 1px solid var(--gris-claro);
     background-color: var(--blanco);
-    padding: 15px;
     width: 100%;
     height: 100%;
     display: none;
@@ -63,8 +69,17 @@ article {display: flex;background-color: var(--blanco);flex-wrap: wrap;height: 2
     flex-wrap: wrap;
 }
 
+.conteint-precio-descuento {
+    display: flex;
+    width: 100%;
+}
 
+}
 
+.contein-menu {
+    display: flex;
+    margin-top: 2%;
+    flex-direction: row;
 }
 
 
