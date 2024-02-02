@@ -65,66 +65,113 @@
       <img  class="banner" src="/images/img-home-banner.jpg" alt="banner">
     </figure>
 
-    <main class="main-home">
-        <form action="/" method="">
+  <main class="register container mt-5">
+      <div class="row justify-content-center">
+        <div class="card col-12 col-md-12 shadow">
+        <div action="/" method="">
 
-            <label for="nombreCompleto">Nombre y apellido:</label>
-            <input type="text" name="nombreCompleto" value="">
+          <!-- Datos de usuario -->
+        <div class="card-body">
+          <div>
+            <input class="white-bar" type="text" name="nombreCompleto" value="" placeholder="Nombre y apellido">
+          </div>
+            <span class="text-danger">Este campo es obligatorio</span>
+            
 
-            <label for="usuario">Nombre de usuari@:</label>
-            <input type="text" name="usuario" value="">
+          <div>
+            <input class="white-bar" type="text" name="usuario" value="" placeholder="Nombre de usuario">
+          </div>
+            <span class="text-danger">Este campo es obligatorio</span>
 
-            <label for="email">Email:</label>
-            <input type="email" name="email" value="">
+          <div>
+            <input class="white-bar" type="password" name="usuario" value="" placeholder="Elegí tu contraseña">
+          </div>
+            <span class="text-danger">Este campo es obligatorio</span>
+                      
+          <div>
+            <input class="white-bar" type="password" name="usuario" value="" placeholder="Confirmar contraseña">
+          </div>
+            <span class="text-danger">Este campo es obligatorio</span>
 
-            <label for="fechaNacmiento">Fecha de nacimiento:</label>
-            <input type="date" name="fechaNacmiento" value="">
+          <div>
+            <input class="white-bar" type="email" name="email" value="" placeholder="Email">
+          </div>
+            <span class="text-danger">Este campo es obligatorio</span>
+            
 
-            <label for="domicilio">Domicilio:</label>
-            <input type="text" name="domicilio" value="">
+          <div>
+            <label class="subtitle" for="fechaNacmiento"><b>Fecha de nacimiento:</b></label>
+            <input class="white-bar" type="date" name="fechaNacmiento" value="" placeholder="mm/dd/yyyy">
+          </div>
+            <span class="text-danger">Este campo es obligatorio</span>
+            
+
+          <div>
+            <input class="white-bar" type="text" name="domicilio" value="" placeholder="Domicilio">
+            <span class="text-danger">Este campo es obligatorio</span>
             <hr>
-            <label for="perfilUsuario">Perfil del usuario:</label>
-            <label for="perfilUsuario">Comprador</label>
-            <input type="radio" name="perfilUsuario" value=""> 
-            <label for="perfilUsuario">Vendedor</label>           
+          </div>
+
+            <!-- Perfil del usuario: -->
+            <br>
+            <label class="subtitle" for="perfilUsuario"><b>Perfil del usuario:</b></label>
+
+            <div class="d-flex">
             <input type="radio" name="perfilUsuario" value="">
-            
-            <label>Categorías de interés (puede elegir más de una)</label>
-
-            <input type="checkbox" name="electro" value=""> 
-            <label for="electro">Electro</label>
-            
-            
-            <input type="checkbox" name="moda" value="">
-            <label for="moda">Moda</label>           
+            <label for="perfilUsuario">Comprador</label>
+             
+            <input type="radio" name="perfilUsuario" value="">
+            <label for="perfilUsuario">Vendedor</label>           
+            </div>
+            <br>
             
 
-            <input type="checkbox" name="hogar" value="">
-            <label for="hogar">Hogar</label>           
-            
+          <!-- Intereses -->
+          <label class="subtitle" ><b>Intereses</b></label>
 
-            <input type="checkbox" name="jugueteria" value="">
-            <label for="jugueteria">Juguetería</label>           
-            
+          <div class="intereses d-flex ">
+            <div>            
+            <input class="d-inline col-1 mt-3" type="checkbox" name="electro" value=""> 
+            <label class="d-inline col-1 mt-3" for="electro">Electro</label>            
+            </div>
 
-            <input type="checkbox" name="vidaSana" value="">
-            <label for="vidaSana">Vida sana</label>
-            
+            <div>            
+            <input class="d-inline col-1 mt-3" type="checkbox" name="moda" value="">
+            <label class="d-inline col-1 mt-3" for="moda">Moda</label>           
+            </div>
+
+            <div>
+            <input class="d-inline col-1 mt-3" type="checkbox" name="hogar" value="">
+            <label class="d-inline col-1 mt-3" for="hogar">Hogar</label>           
+            </div>
+
+            <div>
+            <input class="d-inline col-1 mt-3" type="checkbox" name="jugueteria" value="">
+            <label class="d-inline col-1 mt-3" for="jugueteria">Juguetería</label>           
+            </div>
+
+            <div>
+            <input class="d-inline col-1 mt-3" type="checkbox" name="vidaSana" value="">
+            <label class="d-inline col-1 mt-3" for="vidaSana">Vida sana</label>
+            </div>
+
+          </div>
+
+          <!-- Foto de usuario: -->
             <hr>
-            <label for="avatar">Foto de usuario:</label>
+            <label for="avatar">Foto de usuario (opcional)</label>
             <input type="file" name="avatar" value="">
             <hr>
-            <label for="contraseña">Contraseña:</label>
-            <input type="password" name="contraseña" value="">
-            
 
-            <label for="contraseña">Confirmar contraseña:</label>
-            <input type="password" name="contraseña" value="">
+
             
 
             <button type="submit" href="/">Enviar</button>
             <button type="reset">Cancelar</button>
 
+        </div>
+      </div>
+    </div>
         </form>       
       
 

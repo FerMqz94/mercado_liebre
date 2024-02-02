@@ -1,0 +1,21 @@
+.login .white-bar {
+    margin: 10px 0px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+.login .card {
+    background-color: var(--gris-claro);
+}
+
+.login button {
+    color: var(--blanco);
+    background-color: var(--celeste);
+    border: none;
+    margin: 10px 0px;
+    border-radius: 5px;
+    width: 100%;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}

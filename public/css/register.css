@@ -1,0 +1,44 @@
+.register {
+}
+
+.register .white-bar {
+    margin: 10px 0px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+.register .contein-register {
+    display: flex;
+    margin: 10px 20px;
+    font-size: 12px;
+    flex-direction: column;
+    width: 50%;
+    background-color: var(--gris-claro);
+}
+
+.register .intereses {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.register .card {
+    background-color: var(--gris-claro);
+}
+.register .subtitle {
+    font-size: var(--sizeDescripciones);
+    margin: 20px 0px;
+} 
+
+.register button {
+    color: var(--blanco);
+    background-color: var(--celeste);
+    border: none;
+    margin: 10px 0px;
+    border-radius: 5px;
+    width: 100%;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+

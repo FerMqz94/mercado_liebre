@@ -44,6 +44,10 @@ article {display: flex;background-color: var(--blanco);flex-wrap: wrap;height: 2
     width: 30%;
 }
 
+.contein-info-product {
+    position:relative;
+}
+
 .descripciones {
     font-size: var(--sizeDescripciones);
     color: var(--gris-oscuro);
