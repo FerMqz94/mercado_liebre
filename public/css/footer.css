@@ -1,24 +1,21 @@
 .footer {width: 100%;margin-top: 20%;}
 
 #tarjeta {
-
-color: var(--celeste);
-
-font-size: 35px;
+color: var(--celeste);
+font-size: 35px;
+text-align: center;
 }
 
 #regalo {
-
-color: var(--celeste);
-
-font-size: 35px;
+color: var(--celeste);
+font-size: 35px;
+text-align: center;
 }
 
 #user-shield {
-
-color: var(--celeste);
-
-font-size: 35px;
+color: var(--celeste);
+font-size: 35px;
+text-align: center;
 }
 
 
@@ -35,6 +32,7 @@ width: 100%;
 
 .copyright {
     display: block;
+    margin-top: 100px;
 }
 
 .contein-pago-tarjeta {

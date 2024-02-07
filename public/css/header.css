@@ -1,5 +1,6 @@
 .descripcion {
     font-size: var(--sizeDescripciones);
+    text-align: center;
 } 
 
 .header {
