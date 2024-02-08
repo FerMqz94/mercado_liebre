@@ -1,5 +1,4 @@
-.register {
-}
+.register {display: flex;justify-content: center;}
 
 .register .white-bar {
     margin: 10px 0px;

@@ -68,10 +68,10 @@
   <main class="register container mt-5">
       <div class="row justify-content-center">
         <div class="card col-12 col-md-12 shadow">
-        <div action="/" method="">
 
           <!-- Datos de usuario -->
         <div class="card-body">
+          <form>
           <div>
             <input class="white-bar" type="text" name="nombreCompleto" value="" placeholder="Nombre y apellido">
           </div>
@@ -100,7 +100,7 @@
             
 
           <div>
-            <label class="subtitle" for="fechaNacmiento"><b>Fecha de nacimiento:</b></label>
+            <label class="subtitle" for="fechaNacmiento" for=""><b>Fecha de nacimiento:</b></label>
             <input class="white-bar" type="date" name="fechaNacmiento" value="" placeholder="mm/dd/yyyy">
           </div>
             <span class="text-danger">Este campo es obligatorio</span>
@@ -168,9 +168,8 @@
 
             <button type="submit" href="/">Enviar</button>
             <button type="reset">Cancelar</button>
-
-        </div>
-      </div>
+          
+        </div>    
     </div>
         </form>       
       
