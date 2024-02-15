@@ -44,15 +44,7 @@ article {display: flex;background-color: var(--blanco);flex-wrap: wrap;height: 2
     width: 30%;
 }
 
-.contein-info-product {
-    position:relative;
-    /* visibility: hidden; */
-}
 
-
-.contein-info-product:hover {
-    /* visibility: visible; */
-}
 
 .descripciones {
     font-size: var(--sizeDescripciones);
@@ -93,6 +85,18 @@ article {display: flex;background-color: var(--blanco);flex-wrap: wrap;height: 2
     width: 100%;
 }
 
+
+.contein-info-product h4 {
+    position:relative;
+    overflow: hidden;
+    height: 0px;
+    transition: 500ms all;
+}
+
+
+.contein-info-product:hover h4 {
+    height: 30px;
+}
 
 
 }
