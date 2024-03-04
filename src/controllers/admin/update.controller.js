@@ -1,11 +1,28 @@
-const fs = require('fs');
-const path = require('path');
-
-const productsFilePath = path.join(__dirname, '../data/productsDataBase.json');
-const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
+const { loadData } = require("../../data");
 
 const toThousand = n => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
 
 module.exports = (req,res) => {
-    res.render()
-}
+    const {id} = req.params
+    const {name,price,discount,description,category} = req.body
+
+    const products = loadData()
+    const productsMapped = products.map(p => {
+        if(p.id === +id){
+            const productUpdate = {
+                ...p,
+                name: name.trim(),
+                price: +price,
+                discount: +discount,
+                description: description.trim(),
+                category: category.trim(),
+            };
+            return productUpdate
+        }
+        return p
+    })
+
+    saveData(productsMapped)
+
+    res.redirect(`/productos/detalle/${id}`)
+};

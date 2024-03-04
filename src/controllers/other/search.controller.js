@@ -1,11 +1,16 @@
-const fs = require('fs');
-const path = require('path');
-
-const productsFilePath = path.join(__dirname, '../data/productsDataBase.json');
-const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
-
 const toThousand = n => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
 
 module.exports = (req,res) => {
-    res.render()
-}
+    const {keywords} = req.query
+    const products = loadData()
+    const productFilter = products.filter(
+    (p) => 
+        p.name.toLowerCase().includes(keywords) ||
+        p.description.toLowerCase().includes(keywords.toLowerCase())
+    );
+    res.render('other/results', {
+        products: productsFilter,
+        keywords, 
+        toThousand
+    });
+};

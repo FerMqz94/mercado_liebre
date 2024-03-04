@@ -3,10 +3,10 @@ const express = require('express');
 const router = express.Router();
 
 // ************ Controller Require ************
-const mainController = require('../controllers/mainController');
+const { home, search } = require('../controllers/other')
 
 // '/' raiz
-router.???('/', mainController.index); 
-router.???('/search', mainController.search); 
+router.get('/', home); 
+router.get('/buscar', search); 
 
 module.exports = router;
