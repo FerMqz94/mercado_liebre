@@ -1,3 +1,5 @@
+const { loadData, saveData } = require("../../data")
+
 module.exports = (req,res) => {
     const {id} = req.params
     const products = loadData()

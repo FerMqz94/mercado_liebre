@@ -2,10 +2,13 @@ const { loadData, saveData } = require('../../data')
 
 module.exports = (req,res) => {
     const {name,price,discount,description,category} =  req.body;
+    
+
+    const image = req.file;
     const products = loadData()
 
 
-    const newID = products[prodcuts.length - 1].id + 1
+    const newID = products[products.length - 1].id + 1
    
     const newProduct = {    
         id: newID,
@@ -14,7 +17,7 @@ module.exports = (req,res) => {
         discount: +discount,
         description:description.trim(),
         category:category?.trim(),
-        image:'default-image.png'
+        image: image ? image.filename : 'default-image.png'
     };
 
     products.push(newProduct)
